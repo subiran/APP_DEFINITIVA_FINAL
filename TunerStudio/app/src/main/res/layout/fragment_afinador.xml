@@ -1,0 +1,87 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.app.ala.tunerstudio.Afinador"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="bottom"
+    android:background="@drawable/background1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/parriba">
+
+
+        <TextView
+            android:text="550Hz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#544a45"
+            android:id="@+id/frecuencia"
+            android:layout_marginRight="180dp"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ruedota"
+        android:cropToPadding="false"
+        android:scaleType="center"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="-940dp"
+        android:elevation="-1000000dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top">
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grabar"
+                android:id="@+id/btStart"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parar"
+                android:id="@+id/btStop"/></LinearLayout>
+
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/baseaguja"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/aguja"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
